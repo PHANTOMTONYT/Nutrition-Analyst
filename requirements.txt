@@ -1,0 +1,22 @@
+# POC Day 1 - Minimal Dependencies
+
+# UI
+streamlit>=1.30.0
+
+# LLM
+langchain-groq
+langchain-core
+python-dotenv
+
+# Webcam & Image Processing
+opencv-python
+pillow
+
+# Barcode detection
+pyzbar  # For actual barcode scanning (install ZBar first - see README)
+
+# OCR fallback (if pyzbar not available)
+pytesseract
+
+# API requests
+requests
